@@ -1,0 +1,5 @@
+
+config BR2_PACKAGE_RASPBERY_AIR
+	bool "raspbery-air"
+	help
+	  Includes project daemons and modules

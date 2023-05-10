@@ -1,0 +1,14 @@
+#! /bin/sh
+
+case "$1" in
+	start)
+     modprobe i2c-bcm2835
+     modprobe i2c-dev
+		;;
+	stop)
+		;;
+	*)
+		echo "Usage: $0 {start|stop} xxxx"
+		exit 1
+esac
+exit 0
